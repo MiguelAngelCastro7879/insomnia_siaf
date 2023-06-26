@@ -1,0 +1,21 @@
+_id: req_57a5bd6e4b9e48739daa20a2646fec0d
+type: Request
+parentId: fld_d064700deef34958b72626dfac52ebf7
+modified: 1687553342263
+created: 1687553316337
+url: "{{_.url }}/api/recorridos-puntos"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686382344383.0938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

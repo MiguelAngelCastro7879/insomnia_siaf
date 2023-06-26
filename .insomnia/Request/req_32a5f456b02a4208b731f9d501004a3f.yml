@@ -1,0 +1,21 @@
+_id: req_32a5f456b02a4208b731f9d501004a3f
+type: Request
+parentId: fld_b8e2f5cbd9464aaf98f69f9c570e6326
+modified: 1686868321434
+created: 1686868316771
+url: "{{_.url }}/api/zonas"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

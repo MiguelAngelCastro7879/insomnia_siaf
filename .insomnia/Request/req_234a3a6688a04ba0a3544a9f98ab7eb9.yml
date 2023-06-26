@@ -1,0 +1,21 @@
+_id: req_234a3a6688a04ba0a3544a9f98ab7eb9
+type: Request
+parentId: fld_1c584e21d3404cc8a24de2e0948ed93c
+modified: 1687024273811
+created: 1687023233272
+url: "{{_.url }}/api/sat/claves-mostrar/3"
+name: Delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686339813160.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

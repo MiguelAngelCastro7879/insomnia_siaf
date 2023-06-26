@@ -1,0 +1,21 @@
+_id: req_f83d61c8aea84b7ab378729715ac0c2a
+type: Request
+parentId: fld_235c59e4eedb4994b39a3257c20313b3
+modified: 1686591281661
+created: 1686591263535
+url: "{{_.url }}/api/conceptos-productos"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

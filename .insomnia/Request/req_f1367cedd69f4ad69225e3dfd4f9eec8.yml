@@ -1,0 +1,39 @@
+_id: req_f1367cedd69f4ad69225e3dfd4f9eec8
+type: Request
+parentId: fld_0859839afa21488093f119b393777761
+modified: 1687795221671
+created: 1686847562671
+url: "{{_.url }}/api/numeros-economicos"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"IdUsuario": 3,
+    	"ComoTal": "QWERTYUIOP",
+    	"FechaIngreso": "10-01-2000",
+    	"idTipoServicio": "1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_385d7576367d4e9ab3203258ba8d379f
+  - id: pair_f5a15e42bb424bbeac90dfebf94e58e5
+    name: X-XSRF-TOKEN
+    value: eyJpdiI6IjJEb0NDeUNVekNxNUM5U09OQklwa3c9PSIsInZhbHVlIjoicS90VmoyUUo4dmp1RVVCY0VmMWFkcncrREZESW9qa2FoYm5EdTAxL3dQY00vZVJmSDFNRktLL0lqUUJNQmtuRUpTbmx0U3dXbFFWSXRGQzNoaTdWOUFCalZlMXRTNStzNUhnQm81ZXkzT0NXdUszY05lOHdXbk5aVVdabXlnaEUiLCJtYWMiOiI1ZGZkNDNiYWFhNGJlYmJjM2MyYjU5ZWNkMWQwYjNjODYxZjRiMmE5NWRlZGIyNjZjMWRhMTk5MzhjMjVkOGE0IiwidGFnIjoiIn0%3D
+    description: ""
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYmFuY29zIiwiaWF0IjoxNjg3Nzk0OTgxLCJleHAiOjE2ODc3OTg1ODEsIm5iZiI6MTY4Nzc5NDk4MSwianRpIjoiUE1qcjRWWWdKeFQydjRodSIsInN1YiI6IjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.J70i0PEWA51bbBj9kDTza9x8EPzouAahNVqOEZUkEto
+metaSortKey: -1686323863952.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

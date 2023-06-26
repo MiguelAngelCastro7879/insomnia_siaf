@@ -1,0 +1,30 @@
+_id: req_f5756409ccfc46a3b0ab2b7186fb82f2
+type: Request
+parentId: fld_8ca2a1fb8ac241d78db878621b0d7484
+modified: 1686413353929
+created: 1686412987552
+url: "{{_.url }}/api/sat/regimen-fiscal"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"catalogoRegimenFiscalSAT_descripcion": "QWERTY",
+    	"catalogoRegimenFiscalSAT_fisica": true,
+    	"catalogoRegimenFiscalSAT_moral": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686323863952.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

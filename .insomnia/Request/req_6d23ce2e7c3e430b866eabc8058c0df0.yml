@@ -1,0 +1,30 @@
+_id: req_6d23ce2e7c3e430b866eabc8058c0df0
+type: Request
+parentId: fld_df8182a5c5e54c8db06d609a75163bb3
+modified: 1686683922791
+created: 1686409794332
+url: "{{_.url }}/api/sat/estados/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"cveEstado": "COAH",
+    		"cvePais": 1,
+    		"descripcionEstado": "COAHUILA"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686281332730.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

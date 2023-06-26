@@ -1,0 +1,34 @@
+_id: req_c386759999044a6ea223e18b19f3ada0
+type: Request
+parentId: fld_1b351266b7e94a0b8755bcefee3fb879
+modified: 1687185672055
+created: 1687185434623
+url: "{{_.url }}/api/punto-rondin/1"
+name: UPDATE
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9fe1c22df3e3411bbcaf6b911acf7d0b
+      name: _method
+      value: put
+      description: ""
+    - id: pair_78475258b0554443aed932a80a7829ee
+      name: Nombre
+      value: B
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_000b308a2c874cb6a747943dc4e2ead6
+authentication: {}
+metaSortKey: -1686339813160.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

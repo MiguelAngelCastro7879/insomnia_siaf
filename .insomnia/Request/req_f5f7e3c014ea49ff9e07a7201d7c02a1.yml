@@ -1,0 +1,47 @@
+_id: req_f5f7e3c014ea49ff9e07a7201d7c02a1
+type: Request
+parentId: fld_18b03c3f9b47490fbc390a28d8929a1d
+modified: 1687014790126
+created: 1687014761861
+url: "{{_.url }}/api/areas-funcionales/1"
+name: UPDATE
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c94be9ef848644fba439b7f8d4da2831
+      name: AF_Clave
+      value: "1"
+      description: ""
+    - id: pair_54da3f2d93a64076af1a820ee31d4670
+      name: AF_Nombre
+      value: MANTENIMIENTO PREVENTIVO
+      description: ""
+    - id: pair_fb03f839e45b401996c63e7b5cf1422f
+      name: AF_Doble
+      value: "1"
+      description: ""
+    - id: pair_fffdde2acb0a4d21b59e1e02c92b4ae4
+      name: AF_idCC
+      value: "1"
+      description: ""
+      disabled: false
+    - id: pair_9fe1c22df3e3411bbcaf6b911acf7d0b
+      name: _method
+      value: put
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_000b308a2c874cb6a747943dc4e2ead6
+authentication: {}
+metaSortKey: -1686339813160.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

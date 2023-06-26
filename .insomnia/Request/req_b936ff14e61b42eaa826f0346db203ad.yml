@@ -1,0 +1,182 @@
+_id: req_b936ff14e61b42eaa826f0346db203ad
+type: Request
+parentId: fld_9f0d8dd8feee440ba6a614a0d3c87307
+modified: 1687372377057
+created: 1686584668106
+url: "{{_.url }}/api/empresas"
+name: STORE
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_bd2b0dae6c694c0eae76545fe3c9a849
+      name: empresa_razonSocial
+      value: INTERGAS DEL NORTE
+      description: ""
+    - id: pair_2032a88ca503479ebb6246c930b0216a
+      name: empresa_razonComercial
+      value: INTERGAS DEL NORTE
+      description: ""
+    - id: pair_721223f5ba88415bb5ae0acedc6d2d5a
+      name: empresa_calle
+      value: CALZADA GOMEZ MORIN
+      description: ""
+    - id: pair_d6ea59997d5640f096eb8a830297d769
+      name: empresa_colonia
+      value: PARQUE INDUSTRIAL LAJAT
+      description: ""
+    - id: pair_293b41eedc0242988b24330507d8974a
+      name: empresa_ciudad
+      value: TORREON
+      description: ""
+    - id: pair_f770c3b1fb394e9384e0d8fed4d5ec14
+      name: empresa_localidad
+      value: TORREON
+      description: ""
+    - id: pair_43b6551163394b88bc285a54854b20e3
+      name: empresa_numeroExterior
+      value: SN
+      description: ""
+    - id: pair_f4cfc0f5391c4741a8a5ca247a3140a2
+      name: empresa_numeroInterior
+      value: SN
+      description: ""
+    - id: pair_9c96cae5c9bd409f8f94e4bca638158d
+      name: empresa_idPais
+      value: "1"
+      description: ""
+    - id: pair_4a26623a32fd427ea769c0ab4abb55a6
+      name: empresa_idEstado
+      value: "1"
+      description: ""
+    - id: pair_5c4f052f0a1b4a5ba61f3791fa4c9983
+      name: empresa_codigoPostal
+      value: "27259"
+      description: ""
+    - id: pair_55c1b439f7f745078ab4d564e211d196
+      name: empresa_rfc
+      value: DSI160816SE1
+      description: ""
+    - id: pair_1e30106a8ad14ba590c3e2e379c42897
+      name: empresa_idRegimenFiscal
+      value: "3"
+      description: ""
+    - id: pair_7020f6b71cba4a208d0a53c14a0de19b
+      name: empresa_referencia
+      value: LA JAT
+      description: ""
+    - id: pair_7019ef5301944326b456115709b0f8e3
+      name: empresa_telefonos
+      value: "8717337375"
+      description: ""
+    - id: pair_e7048b4f42784eebb9884a41953926fe
+      name: empresa_numeroPermiso
+      value: AD-COA-014-C/99
+      description: ""
+    - id: pair_eaabfbafce6243e68994cc9609c1f86a
+      name: empresa_numeroOficio
+      value: COA-36-PLP
+      description: ""
+    - id: pair_a36c8c43b232410a9988f727f4ae7e4c
+      name: empresa_passwordSello
+      value: "1234567890"
+      description: ""
+    - id: pair_4245817bb3e649808d512ead77758a49
+      name: empresa_usuarioCertificado
+      value: DSI160816SE1
+      description: ""
+    - id: pair_46f4a2675415407eaeb8839c96b7e44b
+      name: empresa_passwordCertificado
+      value: "1234567890"
+      description: ""
+    - id: pair_883245f38098417abb0fccb47ff9b93e
+      name: empresa_SelloDigital
+      value: required
+      description: ""
+      type: file
+      fileName: C:\Users\Rhint\Desktop\catalogs
+      disabled: false
+    - id: pair_e45cf5dbe6794ea29c66d084ed83065b
+      name: empresa_archivoKey
+      value: required
+      description: ""
+      type: file
+      fileName: C:\Users\Rhint\Desktop\catalogs
+      disabled: false
+    - id: pair_3b72ed9e82f546c2a158e12966d7440a
+      name: empresa_Color
+      value: FF0000
+      description: ""
+    - id: pair_9c9dea6338b344f496244ef7cc027244
+      name: empresa_Logotipo
+      value: required
+      description: ""
+      type: file
+      fileName: C:\Users\Rhint\Desktop\catalogs
+      disabled: false
+    - id: pair_98822b4831ad4b81af5905946e0f7f99
+      name: empresa_noCertificado
+      value: "00001000000505277496"
+      description: ""
+    - id: pair_87a01f4630514c71ab1ae3ed9c2f4084
+      name: empresa_ConsultaRemision
+      value: "1"
+      description: ""
+    - id: pair_9b1a85bb702040109f432cdac75c0da0
+      name: empresa_correoNotificacion
+      value: FACTURACION2023@INTERGASDELNORTE.COM
+      description: ""
+    - id: pair_8426a0d7bb1a4c52bcd7d34a7812f866
+      name: empresa_passwordCorreo
+      value: "1234567890"
+      description: ""
+    - id: pair_a4c9ff99ab4e46eba5da60c6008bc199
+      name: empresa_host
+      value: INTERGASDELNORTE.COM
+      description: ""
+    - id: pair_eba968be130a413fab486e4fcd8e636d
+      name: empresa_puerto
+      value: "587"
+      description: ""
+    - id: pair_25838aaff7034a2dab260b6a414d1945
+      name: empresa_seguridadSSL
+      value: "0"
+      description: ""
+    - id: pair_5acb07a0cd264db8b44f4c33e98d45dd
+      name: empresa_microsip
+      value: "0"
+      description: ""
+    - id: pair_d9121267c9c740da8de4afa19a9d9f33
+      name: empresa_siaf
+      value: "1"
+      description: ""
+    - id: pair_700fa3b8af504c7283c88bdebaa3f518
+      name: empresa_regimenCapital
+      value: required
+      description: ""
+      disabled: true
+    - id: pair_14ccb0aa46284129bb5f2d847be3a9fc
+      name: empresa_permisoCRE
+      value: required
+      description: ""
+      disabled: true
+    - id: pair_33a7bca0902347c8a4656ac309e1f917
+      name: _method
+      value: PUT
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_000b308a2c874cb6a747943dc4e2ead6
+authentication: {}
+metaSortKey: -1686355762369.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

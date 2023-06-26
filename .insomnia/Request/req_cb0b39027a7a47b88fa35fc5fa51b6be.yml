@@ -1,0 +1,30 @@
+_id: req_cb0b39027a7a47b88fa35fc5fa51b6be
+type: Request
+parentId: fld_9308608fcf914dc088575c21f3c99466
+modified: 1686929716979
+created: 1686929665668
+url: "{{_.url }}/api/captacion"
+name: STORE
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c94be9ef848644fba439b7f8d4da2831
+      name: tipoCaptacion_tipo
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_000b308a2c874cb6a747943dc4e2ead6
+authentication: {}
+metaSortKey: -1686355762369.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

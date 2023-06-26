@@ -1,0 +1,30 @@
+_id: req_42315173a99a41b39942db49e65c3bc1
+type: Request
+parentId: fld_a75eed198a7d4dd7a52e695e4f025373
+modified: 1686418874855
+created: 1686418693304
+url: "{{_.url }}/api/bancos/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"banco_nombreBanco":"BBVA",
+    	"banco_rfcBanco":"QWERTYUIOP",
+    	"banco_Descripcion":"BANCOMER"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686281332730.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

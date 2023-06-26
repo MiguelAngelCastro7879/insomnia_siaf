@@ -1,0 +1,21 @@
+_id: req_f279dc82952a441ab8f0b6183ffb341e
+type: Request
+parentId: fld_39c9b8c46d3b42b69fb7887ca225d799
+modified: 1686849995792
+created: 1686840821335
+url: "{{_.url }}/api/unidades-de-medida"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

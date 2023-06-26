@@ -1,0 +1,34 @@
+_id: req_b58534a9e555441b8e0bbc6bf786cfa6
+type: Request
+parentId: fld_35d2fe9ce974493d9e8ff0104361690b
+modified: 1687555410237
+created: 1687555410237
+url: "{{_.url }}/api/unidades-de-medida"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"unidadMedida_nombre": "LTS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_385d7576367d4e9ab3203258ba8d379f
+  - id: pair_f5a15e42bb424bbeac90dfebf94e58e5
+    name: X-XSRF-TOKEN
+    value: eyJpdiI6IjJEb0NDeUNVekNxNUM5U09OQklwa3c9PSIsInZhbHVlIjoicS90VmoyUUo4dmp1RVVCY0VmMWFkcncrREZESW9qa2FoYm5EdTAxL3dQY00vZVJmSDFNRktLL0lqUUJNQmtuRUpTbmx0U3dXbFFWSXRGQzNoaTdWOUFCalZlMXRTNStzNUhnQm81ZXkzT0NXdUszY05lOHdXbk5aVVdabXlnaEUiLCJtYWMiOiI1ZGZkNDNiYWFhNGJlYmJjM2MyYjU5ZWNkMWQwYjNjODYxZjRiMmE5NWRlZGIyNjZjMWRhMTk5MzhjMjVkOGE0IiwidGFnIjoiIn0%3D
+    description: ""
+authentication: {}
+metaSortKey: -1686323863952.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

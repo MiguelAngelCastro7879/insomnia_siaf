@@ -1,0 +1,30 @@
+_id: req_dde455009ce34fe9b66bddc869221aae
+type: Request
+parentId: fld_c4528b78fda140b18dbb1ee8921c3855
+modified: 1686415034187
+created: 1686414213440
+url: "{{_.url }}/api/sat/regimen-fiscal/3"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"catalogoRegimenFiscalSAT_descripcion": "QWERTYUIOP",
+    	"catalogoRegimenFiscalSAT_fisica": true,
+    	"catalogoRegimenFiscalSAT_moral": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686281332730.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

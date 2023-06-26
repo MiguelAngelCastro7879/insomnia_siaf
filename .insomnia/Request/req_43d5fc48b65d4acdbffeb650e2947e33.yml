@@ -1,0 +1,29 @@
+_id: req_43d5fc48b65d4acdbffeb650e2947e33
+type: Request
+parentId: fld_8cdaa7cc9a964a0992ea4891bdb0042b
+modified: 1686412514456
+created: 1686412020350
+url: "{{_.url }}/api/sat/paises/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cvePais":"MEX",
+    	"descripcionPais":"MEXICO"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686281332730.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

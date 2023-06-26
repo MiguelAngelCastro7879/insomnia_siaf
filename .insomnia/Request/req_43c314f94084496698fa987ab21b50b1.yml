@@ -1,0 +1,30 @@
+_id: req_43c314f94084496698fa987ab21b50b1
+type: Request
+parentId: fld_6325990235984f56a4a1ed716784ed06
+modified: 1687553989568
+created: 1687553989568
+url: "{{_.url }}/api/zonas/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"zona_idEmpresa":"10",
+    	"zona_numero":"1",
+    	"zona_descripcion":"1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686281332730.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

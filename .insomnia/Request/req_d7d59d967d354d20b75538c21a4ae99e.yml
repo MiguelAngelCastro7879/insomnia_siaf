@@ -1,0 +1,29 @@
+_id: req_d7d59d967d354d20b75538c21a4ae99e
+type: Request
+parentId: fld_235c59e4eedb4994b39a3257c20313b3
+modified: 1686591327541
+created: 1686591263538
+url: "{{_.url }}/api/conceptos-productos"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    
+    {
+    	"conceptosProductosSAT_descripcion": "ISRR"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686323863952.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

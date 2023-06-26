@@ -1,0 +1,21 @@
+_id: req_1c96a9182d4b4a4ab07c0b8dd6cdebf8
+type: Request
+parentId: fld_8ca2a1fb8ac241d78db878621b0d7484
+modified: 1686413030478
+created: 1686412987549
+url: "{{_.url }}/api/sat/regimen-fiscal"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

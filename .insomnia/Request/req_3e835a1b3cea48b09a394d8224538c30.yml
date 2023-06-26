@@ -1,0 +1,21 @@
+_id: req_3e835a1b3cea48b09a394d8224538c30
+type: Request
+parentId: fld_2ede61c24f71436fba425553d0dc5344
+modified: 1686415266542
+created: 1686415232944
+url: "{{_.url }}/api/sat/tipo-relaciones"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

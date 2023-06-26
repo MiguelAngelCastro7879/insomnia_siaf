@@ -1,0 +1,30 @@
+_id: req_5682a08572ed4147ac25b6a0c5ebd635
+type: Request
+parentId: fld_df8182a5c5e54c8db06d609a75163bb3
+modified: 1686682643279
+created: 1686409441779
+url: "{{_.url }}/api/sat/estados"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cveEstado":"CHIH",
+    	"cvePais":1,
+    	"descripcionEstado":"CHIHUAHUA"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686323863952.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

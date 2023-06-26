@@ -1,0 +1,21 @@
+_id: req_277f76ad1cca442684c177420eb07e9b
+type: Request
+parentId: fld_9308608fcf914dc088575c21f3c99466
+modified: 1686929700102
+created: 1686929665662
+url: "{{_.url }}/api/captacion"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

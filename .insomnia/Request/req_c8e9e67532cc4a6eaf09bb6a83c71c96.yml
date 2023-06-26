@@ -1,0 +1,29 @@
+_id: req_c8e9e67532cc4a6eaf09bb6a83c71c96
+type: Request
+parentId: fld_34cc15ac5f804ed69b9fa39805e7fbe4
+modified: 1686867904424
+created: 1686867659829
+url: "{{_.url }}/api/uso-cfdi/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"usoCfdiSAT_descripcion": "LITROusoCfdiSAT_descripcionS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686281332730.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

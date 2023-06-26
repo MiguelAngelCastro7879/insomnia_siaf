@@ -1,0 +1,63 @@
+_id: req_6eecf09a3b064083a36209294c35d149
+type: Request
+parentId: fld_c668289f4bca4a34ad2bcb0f2578902c
+modified: 1687555872059
+created: 1687549371871
+url: "{{_.url }}/api/clientes"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"cliente_idPais": {% response 'body', 'req_e386c08079cf451f8a3b96f55a3f8c60', 'b64::JFswXS5pZFBhaXM=::46b', 'always', 60 %} ,
+    	"cliente_idEstado":{% response 'body', 'req_302304081efc450095b8149b9d5933ea', 'b64::JFswXS5pZEVzdGFkbw==::46b', 'always', 60 %} ,
+    	"cliente_idUsuario":{% response 'body', 'req_a2773e148a854f668261a015031f549b', 'b64::JFswXS51c3VhcmlvX2lkVXN1YXJpbw==::46b', 'always', 60 %} ,
+    	"cliente_idTipoCaptacion":{% response 'body', 'req_277f76ad1cca442684c177420eb07e9b', 'b64::JFswXS50aXBvQ2FwdGFjaW9uX2lkVGlwb0NhcHRhY2lvbg==::46b', 'always', 60 %} ,
+    	"cliente_idTipoCliente":{% response 'body', 'req_9ec73bc59ec540949c5cd879be5fadcf', 'b64::JFswXS50aXBvQ2xpZW50ZV9pZFRpcG9DbGllbnRl::46b', 'always', 60 %} ,
+    	"cliente_idFormasPago": 2,
+    	"cliente_idTipoCartera":1,
+    	"cliente_idVendedor":7,
+    	"cliente_idUsoCfdiSAT":2,
+    	"cliente_nombrecomercial":"INTERGAS",
+    	"cliente_razonsocial":"INTERGAS",
+    	"cliente_rfc":"ASDASD",
+    	"cliente_calle":"ASDASD",
+    	"cliente_numeroInterior":"SAD",
+    	"cliente_numeroExterior":"SD",
+    	"cliente_colonia":"ASDA",
+    	"cliente_ciudad":"SAD",
+    	"cliente_localidad":"SAD",
+    	"cliente_codigoPostal":"ASDSD",
+    	"cliente_telefono":"ASDAS",
+    	"cliente_limiteCredito":"123",
+    	"cliente_diasCredito":5,
+    	"cliente_estatusCredito":"1",
+    	"cliente_descuento":"10",
+    	"cliente_estatusDescuento":"1",
+    	"cliente_cienLitros":"1",
+    	"cliente_fecha":"{% now 'iso-8601', '' %}",
+    	"cliente_fechaModificacion":"{% now 'iso-8601', '' %}",
+    	"cliente_estatus":"1",
+    	"cliente_estatusReposicion":"1",
+    	"cliente_tieneCredito":"1",
+    	"cliente_tieneDescuento":"1",
+    	"cliente_cuentaContable":"1",
+    	"cliente_descuentoTanque":"1",
+    	"cliente_dscportanque":"1",
+    	"cliente_idRegimenFiscal":5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686323863952.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

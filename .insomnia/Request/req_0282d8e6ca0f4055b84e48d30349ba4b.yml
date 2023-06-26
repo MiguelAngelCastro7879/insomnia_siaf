@@ -1,0 +1,63 @@
+_id: req_0282d8e6ca0f4055b84e48d30349ba4b
+type: Request
+parentId: fld_6325990235984f56a4a1ed716784ed06
+modified: 1687553989566
+created: 1687553989566
+url: "{{_.url }}/api/clientes"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"cliente_idPais": {% response 'body', 'req_e386c08079cf451f8a3b96f55a3f8c60', 'b64::JFswXS5pZFBhaXM=::46b', 'always', 60 %} ,
+    	"cliente_idEstado":{% response 'body', 'req_302304081efc450095b8149b9d5933ea', 'b64::JFswXS5pZEVzdGFkbw==::46b', 'always', 60 %} ,
+    	"cliente_idUsuario":{% response 'body', 'req_a2773e148a854f668261a015031f549b', 'b64::JFswXS51c3VhcmlvX2lkVXN1YXJpbw==::46b', 'always', 60 %} ,
+    	"cliente_idTipoCaptacion":{% response 'body', 'req_277f76ad1cca442684c177420eb07e9b', 'b64::JFswXS50aXBvQ2FwdGFjaW9uX2lkVGlwb0NhcHRhY2lvbg==::46b', 'always', 60 %} ,
+    	"cliente_idTipoCliente":{% response 'body', 'req_9ec73bc59ec540949c5cd879be5fadcf', 'b64::JFswXS50aXBvQ2xpZW50ZV9pZFRpcG9DbGllbnRl::46b', 'always', 60 %} ,
+    	"cliente_idFormasPago": 2,
+    	"cliente_idTipoCartera":"",
+    	"cliente_idVendedor":"",
+    	"cliente_idUsoCfdiSAT":"",
+    	"cliente_nombrecomercial":"",
+    	"cliente_razonsocial":"",
+    	"cliente_rfc":"",
+    	"cliente_calle":"",
+    	"cliente_numeroInterior":"",
+    	"cliente_numeroExterior":"",
+    	"cliente_colonia":"",
+    	"cliente_ciudad":"",
+    	"cliente_localidad":"",
+    	"cliente_codigoPostal":"",
+    	"cliente_telefono":"",
+    	"cliente_limiteCredito":"",
+    	"cliente_diasCredito":"",
+    	"cliente_estatusCredito":"",
+    	"cliente_descuento":"",
+    	"cliente_estatusDescuento":"",
+    	"cliente_cienLitros":"",
+    	"cliente_fecha":"",
+    	"cliente_fechaModificacion":"",
+    	"cliente_estatus":"",
+    	"cliente_estatusReposicion":"",
+    	"cliente_tieneCredito":"",
+    	"cliente_tieneDescuento":"",
+    	"cliente_cuentaContable":"",
+    	"cliente_descuentoTanque":"",
+    	"cliente_dscportanque":"",
+    	"cliente_idRegimenFiscal":"",
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686323863952.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

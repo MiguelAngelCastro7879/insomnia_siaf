@@ -1,0 +1,34 @@
+_id: req_a70be17bb8f0425aaba112ee032ecdcf
+type: Request
+parentId: fld_34cc15ac5f804ed69b9fa39805e7fbe4
+modified: 1686867760674
+created: 1686867659826
+url: "{{_.url }}/api/uso-cfdi"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"usoCfdiSAT_descripcion": "usoCfdiSAT_descripcion"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_385d7576367d4e9ab3203258ba8d379f
+  - id: pair_f5a15e42bb424bbeac90dfebf94e58e5
+    name: X-XSRF-TOKEN
+    value: eyJpdiI6IjJEb0NDeUNVekNxNUM5U09OQklwa3c9PSIsInZhbHVlIjoicS90VmoyUUo4dmp1RVVCY0VmMWFkcncrREZESW9qa2FoYm5EdTAxL3dQY00vZVJmSDFNRktLL0lqUUJNQmtuRUpTbmx0U3dXbFFWSXRGQzNoaTdWOUFCalZlMXRTNStzNUhnQm81ZXkzT0NXdUszY05lOHdXbk5aVVdabXlnaEUiLCJtYWMiOiI1ZGZkNDNiYWFhNGJlYmJjM2MyYjU5ZWNkMWQwYjNjODYxZjRiMmE5NWRlZGIyNjZjMWRhMTk5MzhjMjVkOGE0IiwidGFnIjoiIn0%3D
+    description: ""
+authentication: {}
+metaSortKey: -1686323863952.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

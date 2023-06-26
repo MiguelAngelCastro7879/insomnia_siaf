@@ -1,0 +1,30 @@
+_id: req_6d7789b3313b421fb4431975c24f57d8
+type: Request
+parentId: fld_8ca2a1fb8ac241d78db878621b0d7484
+modified: 1686582851475
+created: 1686582826812
+url: "{{_.url }}/api/sat/regimen-fiscal/3"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"catalogoRegimenFiscalSAT_descripcion": "General Ley Personas",
+    	"catalogoRegimenFiscalSAT_fisica": true,
+    	"catalogoRegimenFiscalSAT_moral": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686313231146.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

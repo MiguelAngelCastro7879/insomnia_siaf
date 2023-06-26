@@ -1,0 +1,21 @@
+_id: req_e386c08079cf451f8a3b96f55a3f8c60
+type: Request
+parentId: fld_8cdaa7cc9a964a0992ea4891bdb0042b
+modified: 1686412116892
+created: 1686412020346
+url: "{{_.url }}/api/sat/paises"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

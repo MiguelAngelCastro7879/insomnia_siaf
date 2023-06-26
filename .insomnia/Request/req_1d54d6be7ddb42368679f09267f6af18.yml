@@ -1,0 +1,21 @@
+_id: req_1d54d6be7ddb42368679f09267f6af18
+type: Request
+parentId: fld_f3c395a08d9b4d66955e14806e0ebd54
+modified: 1687186715178
+created: 1687186637200
+url: "{{_.url }}/api/recorridos"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

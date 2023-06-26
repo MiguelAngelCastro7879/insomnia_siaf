@@ -1,0 +1,21 @@
+_id: req_a2773e148a854f668261a015031f549b
+type: Request
+parentId: fld_387f53d11df04417b34e22962a61307d
+modified: 1687553346573
+created: 1687187159843
+url: "{{_.url }}/api/usuarios"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686353768718.1445
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

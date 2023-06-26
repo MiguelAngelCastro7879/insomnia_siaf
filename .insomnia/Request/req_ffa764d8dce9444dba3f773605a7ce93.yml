@@ -1,0 +1,21 @@
+_id: req_ffa764d8dce9444dba3f773605a7ce93
+type: Request
+parentId: fld_4808cf3afdbf4400a75b95a3956651e4
+modified: 1686416864708
+created: 1686416855049
+url: "{{_.url }}/api/sat/moneda"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

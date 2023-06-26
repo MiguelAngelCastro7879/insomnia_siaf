@@ -1,0 +1,23 @@
+_id: req_f9b6eab0fab34cfd8930a871ffe5137a
+type: Request
+parentId: fld_0859839afa21488093f119b393777761
+modified: 1687795188111
+created: 1686847562668
+url: "{{_.url }}/api/numeros-economicos"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYmFuY29zIiwiaWF0IjoxNjg3Nzk0OTgxLCJleHAiOjE2ODc3OTg1ODEsIm5iZiI6MTY4Nzc5NDk4MSwianRpIjoiUE1qcjRWWWdKeFQydjRodSIsInN1YiI6IjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.J70i0PEWA51bbBj9kDTza9x8EPzouAahNVqOEZUkEto
+metaSortKey: -1686408926397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_b691aa822c03430686a5dac367781525
+type: Request
+parentId: fld_39c9b8c46d3b42b69fb7887ca225d799
+modified: 1686850085302
+created: 1686840821339
+url: "{{_.url }}/api/unidades-de-medida/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"unidadMedida_nombre": "LITROS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686281332730.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

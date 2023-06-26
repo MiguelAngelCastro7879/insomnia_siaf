@@ -1,0 +1,42 @@
+_id: req_bd86b8eb5a0f45fc8f6c2df414c2540b
+type: Request
+parentId: fld_c6d7330ee38f43fdb4335066c7207854
+modified: 1687190853469
+created: 1687190853469
+url: "{{_.url }}/api/recorridos"
+name: STORE
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_59659d695b35470c881447f63978cc19
+      name: Nombre
+      value: A
+      description: ""
+    - id: pair_b3561198f1f94183b0b88829185b3f23
+      name: Frecuencia
+      value: "1"
+      description: ""
+    - id: pair_53ce3c7c32234a5387393a9b701847e4
+      name: Hora_Comienzo
+      value: 01-01-2024 01:01:01
+      description: ""
+    - id: pair_506cd087124b444489303826e5a16093
+      name: Numero_Repeticiones
+      value: "3"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_000b308a2c874cb6a747943dc4e2ead6
+authentication: {}
+metaSortKey: -1686355762369.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
